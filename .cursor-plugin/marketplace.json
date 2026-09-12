@@ -1,11 +1,11 @@
 {
-  "name": "goal-driven-1day-reset",
+  "name": "grok-bot-plugins",
   "owner": {
     "name": "thecosmicpine",
     "email": "83455188+thecosmicpine@users.noreply.github.com"
   },
   "metadata": {
-    "description": "Public Grok Bot plugin: goal-driven 1-day reset (edit goals → generate How)",
+    "description": "Public Grok Bot plugin marketplace (pluginRoot: plugins)",
     "version": "0.1.0",
     "pluginRoot": "plugins"
   },
