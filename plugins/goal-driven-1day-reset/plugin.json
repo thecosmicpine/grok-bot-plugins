@@ -1,0 +1,25 @@
+{
+  "name": "goal-driven-1day-reset",
+  "version": "0.1.0",
+  "description": "목표를 입력·수정하고, 그 목표에 맞춘 1일 리셋 How를 만든다.",
+  "author": {
+    "name": "thecosmicpine",
+    "email": "83455188+thecosmicpine@users.noreply.github.com"
+  },
+  "license": "MIT",
+  "tags": ["productivity", "coaching", "korean", "daily-reset", "goal-tracking"],
+  "skills": [
+    {
+      "name": "goal-driven-1day-reset",
+      "path": "skills/goal-driven-1day-reset/SKILL.md",
+      "description": "1일 목표 리셋 코치 - 목표 기반 일일 계획 및 체크인"
+    }
+  ],
+  "bots": [
+    {
+      "name": "1일 목표 리셋",
+      "path": "bot.json",
+      "description": "목표 달성을 위한 일일 코칭 봇"
+    }
+  ]
+}
