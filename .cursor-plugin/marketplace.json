@@ -1,0 +1,20 @@
+{
+  "name": "goal-driven-1day-reset",
+  "owner": {
+    "name": "thecosmicpine",
+    "email": "83455188+thecosmicpine@users.noreply.github.com"
+  },
+  "metadata": {
+    "description": "Public Grok Bot plugin: goal-driven 1-day reset (edit goals → generate How)",
+    "version": "0.1.0",
+    "pluginRoot": "plugins"
+  },
+  "plugins": [
+    {
+      "name": "goal-driven-1day-reset",
+      "source": "goal-driven-1day-reset",
+      "version": "0.1.0",
+      "description": "목표를 입력·수정하고, 그 목표에 맞춘 1일 리셋 How를 만든다."
+    }
+  ]
+}
