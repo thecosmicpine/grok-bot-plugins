@@ -1,0 +1,15 @@
+{
+  "name": "goal-driven-1day-reset",
+  "version": "0.1.0",
+  "description": "목표를 입력·수정하고, 그 목표에 맞춘 1일 리셋 How를 만든다.",
+  "author": {
+    "name": "thecosmicpine",
+    "email": "83455188+thecosmicpine@users.noreply.github.com"
+  },
+  "license": "MIT",
+  "metadata": {
+    "pluginType": "skill-bot-hybrid",
+    "language": "ko",
+    "category": "productivity"
+  }
+}

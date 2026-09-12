@@ -1,0 +1,27 @@
+{
+  "name": "goal-driven-1day-reset",
+  "version": "0.1.0",
+  "description": "Dan Koe의 1일 프로토콜을 목표 기반으로 적용 — Grok Bot용 (Cursor plugin 패키징은 부차적)",
+  "author": {
+    "name": "thecosmicpine",
+    "email": "83455188+thecosmicpine@users.noreply.github.com"
+  },
+  "license": "MIT",
+  "tags": ["grok-bot", "productivity", "coaching", "korean", "daily-reset", "goal-tracking", "dan-koe"],
+  "primaryUseCase": "grok-bot",
+  "secondaryUseCase": "cursor-plugin",
+  "skills": [
+    {
+      "name": "goal-driven-1day-reset",
+      "path": "skills/goal-driven-1day-reset/SKILL.md",
+      "description": "1일 목표 리셋 코치 - Dan Koe protocol 기반"
+    }
+  ],
+  "bots": [
+    {
+      "name": "1일 목표 리셋",
+      "path": "bot.json",
+      "description": "목표 기반 1일 리셋 Grok Bot"
+    }
+  ]
+}
