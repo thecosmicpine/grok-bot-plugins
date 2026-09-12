@@ -21,30 +21,64 @@
 
 **주 사용 사례**: Grok Bot에서 사용
 
-#### 1. Grok Bot 열기
-Cursor 또는 X에서 Grok Bot 실행
+---
 
-#### 2. 새 봇 생성 또는 import
-- **이름**: `1일 목표 리셋`
-- **Persona**: 이 저장소의 `plugins/goal-driven-1day-reset/bot.json` 파일 내용을 복사
-  ```
-  https://github.com/thecosmicpine/grok-bot-plugins/blob/main/plugins/goal-driven-1day-reset/bot.json
-  ```
-- **Skill**: `plugins/goal-driven-1day-reset/skills/goal-driven-1day-reset/SKILL.md` 파일 내용을 봇의 skill/workflow에 복사
-  ```
-  https://github.com/thecosmicpine/grok-bot-plugins/blob/main/plugins/goal-driven-1day-reset/skills/goal-driven-1day-reset/SKILL.md
-  ```
+#### 방법 1: GitHub 링크로 자동 설치 (추천 ⭐)
 
-#### 3. 첫 실행
+Grok Bot에게 저장소 링크를 주고 설치를 요청하세요:
+
+**한국어:**
+```
+https://github.com/thecosmicpine/grok-bot-plugins 이걸로 1일 목표 리셋 봇 설치해줘
+```
+
+**또는 플러그인 경로 지정:**
+```
+https://github.com/thecosmicpine/grok-bot-plugins
+plugins/goal-driven-1day-reset 설치해줘
+```
+
+**English:**
+```
+Install the 1-day reset bot from https://github.com/thecosmicpine/grok-bot-plugins
+```
+
+**봇이 자동으로 수행:**
+1. `plugins/goal-driven-1day-reset/bot.json` 읽기
+2. `skills/goal-driven-1day-reset/SKILL.md` 읽기
+3. Persona를 프로필 description에 반영
+4. Skill을 봇의 skills에 저장
+5. 설치 완료 확인
+
+**첫 실행:**
 ```
 사용자: 리셋 시작
 봇: 1일 리셋 시작합니다. 당신의 목표는?
-사용자: 건강한 부자 되기
-봇: [목표 기반 맞춤 How 생성]
+사용자: [예: 자유롭게 일하면서 수입도 늘리기]
+봇: 알겠어요. "[목표]" 저장.
+    지금 당신을 방해하는 3가지는?
 ```
 
-#### 4. 목표 수정
-언제든 `목표 수정`이라고 입력하면 → How 자동 재생성
+**목표 수정:**
+```
+사용자: 목표 수정
+봇: [새 목표 입력 받고 How 자동 재생성]
+```
+
+---
+
+#### 방법 2: 수동 설치 (fallback)
+
+자동 설치가 작동하지 않으면 수동으로 복사:
+
+1. **Grok Bot 열기** (Cursor 또는 X)
+
+2. **새 봇 생성**
+   - **이름**: `1일 목표 리셋`
+   - **Persona**: [`bot.json`](https://github.com/thecosmicpine/grok-bot-plugins/blob/main/plugins/goal-driven-1day-reset/bot.json) 파일 내용 복사하여 persona에 붙여넣기
+   - **Skill**: [`SKILL.md`](https://github.com/thecosmicpine/grok-bot-plugins/blob/main/plugins/goal-driven-1day-reset/skills/goal-driven-1day-reset/SKILL.md) 파일 내용 복사하여 skill/workflow에 붙여넣기
+
+3. **첫 실행**: `리셋 시작` 입력
 
 ---
 
@@ -56,26 +90,24 @@ Cursor 또는 X에서 Grok Bot 실행
 
 1. Settings > Cursor > Plugins
 2. "Install from URL" 클릭
-3. 다음 URL 입력:
+3. URL 입력:
    ```
    https://github.com/thecosmicpine/grok-bot-plugins?plugin=goal-driven-1day-reset
    ```
 4. Install 클릭
 
-#### 또는 로컬 설치
+#### 로컬 설치
 
 ```bash
 git clone https://github.com/thecosmicpine/grok-bot-plugins.git
-cd grok-bot-plugins/plugins/goal-driven-1day-reset
+cd grok-bot-plugins
 ```
 
-Cursor Settings에서 이 폴더를 plugin으로 추가.
+Cursor Settings에서 `plugins/goal-driven-1day-reset` 폴더를 plugin으로 추가.
 
-#### 첫 실행 (Cursor Plugin)
+#### 첫 실행 (Cursor)
 
-1. Cursor에서 `/grok 1일 목표 리셋` 입력
-2. 목표 입력
-3. 아침/저녁 체크인
+Cursor에서 `/grok 1일 목표 리셋` 입력 후 `리셋 시작`
 
 ## 사용 흐름 (Dan Koe 1-day protocol)
 

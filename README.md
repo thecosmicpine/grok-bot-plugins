@@ -21,15 +21,28 @@
 
 ## Grok Bot 설치 (권장)
 
-### 1. Grok Bot 열기
-Cursor 또는 X에서 Grok Bot 실행
+### 방법 1: GitHub 링크로 자동 설치 (추천 ⭐)
 
-### 2. 새 봇 생성
-- 이름: `1일 목표 리셋`
-- Persona: `plugins/goal-driven-1day-reset/bot.json` 내용 복사
-- Skill: `plugins/goal-driven-1day-reset/skills/goal-driven-1day-reset/SKILL.md` 내용 복사
+Grok Bot에게 이 저장소 링크를 주고 설치를 요청하세요:
 
-### 3. 첫 실행
+```
+https://github.com/thecosmicpine/grok-bot-plugins 이걸로 1일 목표 리셋 봇 설치해줘
+```
+
+또는 플러그인 경로 지정:
+
+```
+https://github.com/thecosmicpine/grok-bot-plugins
+plugins/goal-driven-1day-reset 설치해줘
+```
+
+**봇이 자동으로:**
+1. `plugins/goal-driven-1day-reset/bot.json` 읽기
+2. `plugins/goal-driven-1day-reset/skills/goal-driven-1day-reset/SKILL.md` 읽기
+3. Persona를 프로필에 반영
+4. Skill을 저장
+
+**첫 실행:**
 ```
 사용자: 리셋 시작
 봇: 1일 리셋 시작합니다. 당신의 목표는?
@@ -37,8 +50,20 @@ Cursor 또는 X에서 Grok Bot 실행
 봇: [목표 기반 How 생성]
 ```
 
-### 4. 목표 수정
-언제든 `목표 수정`이라고 입력 → How 자동 재생성
+**목표 수정:** 언제든 `목표 수정` → How 자동 재생성
+
+---
+
+### 방법 2: 수동 설치 (fallback)
+
+자동 설치가 안 되면 수동으로:
+
+1. **Grok Bot 열기** (Cursor 또는 X)
+2. **새 봇 생성**
+   - 이름: `1일 목표 리셋`
+   - Persona: [`bot.json`](https://github.com/thecosmicpine/grok-bot-plugins/blob/main/plugins/goal-driven-1day-reset/bot.json) 내용 복사
+   - Skill: [`SKILL.md`](https://github.com/thecosmicpine/grok-bot-plugins/blob/main/plugins/goal-driven-1day-reset/skills/goal-driven-1day-reset/SKILL.md) 내용 복사
+3. **첫 실행**: `리셋 시작`
 
 ---
 
