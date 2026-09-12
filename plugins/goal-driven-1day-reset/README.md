@@ -8,7 +8,7 @@
 
 ## 출처
 
-**[Dan Koe — "How to fix your entire life in 1 day"](https://x.com/thedankoe/status/2010751592346030461)** (X 포스트)
+**[Dan Koe — "How to fix your entire life in 1 day"](https://x.com/thedankoe/status/2010751592346030461)** (출처 트윗)
 
 원본은 1일 프로토콜을 제시합니다:
 - **아침**: Anti-vision(방해 요소) 제거 → Vision(진짜 원하는 것) 발굴

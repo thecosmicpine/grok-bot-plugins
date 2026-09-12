@@ -4,16 +4,16 @@
 
 ## 개요
 
-**Grok Bot** (Cursor app의 agent chat)에서 사용할 수 있는 플러그인 모음입니다. 각 플러그인은 persona + skill로 구성됩니다.
+**Grok Bot 앱**에서 사용할 수 있는 플러그인 모음입니다. 각 플러그인은 persona + skill로 구성됩니다.
 
-**주 사용**: Grok Bot에 persona와 skill import  
+**주 사용**: Grok Bot 앱에 persona와 skill import  
 **부 사용**: Cursor Plugins UI
 
 ## 설치 방법 (모든 플러그인 공통)
 
 ### GitHub 링크로 자동 설치 (추천)
 
-Grok Bot (Cursor app)에서 저장소 링크를 주고 설치 요청:
+Grok Bot 앱에서 저장소 링크를 주고 설치 요청:
 
 ```
 https://github.com/thecosmicpine/grok-bot-plugins 이걸로 [플러그인명] 설치해줘
