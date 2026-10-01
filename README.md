@@ -53,6 +53,21 @@ https://github.com/thecosmicpine/grok-bot-plugins 이걸로 1일 목표 리셋 �
 
 ---
 
+### [`pocketbase-connect`](plugins/pocketbase-connect/)
+
+**PocketBase 헬퍼** — PocketBase 연결·CRUD·오프라인 큐 (Mac Shell + .env.local)
+
+어떤 Grok Bot이든 PocketBase와 말할 때 쓰는 공유 스킬. 연결·쓰기 요청이 있을 때만 로드합니다.
+
+**설치:**
+```
+https://github.com/thecosmicpine/grok-bot-plugins 이걸로 PocketBase 헬퍼 설치해줘
+```
+
+상세: [`plugins/pocketbase-connect/README.md`](plugins/pocketbase-connect/)
+
+---
+
 ## Layout
 
 ```
