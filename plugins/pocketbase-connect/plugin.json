@@ -1,0 +1,27 @@
+{
+  "name": "pocketbase-connect",
+  "version": "0.1.0",
+  "description": "PocketBase 연결·CRUD·오프라인 큐 (Mac Shell + .env.local).",
+  "author": {
+    "name": "thecosmicpine",
+    "email": "83455188+thecosmicpine@users.noreply.github.com"
+  },
+  "license": "MIT",
+  "tags": ["grok-bot", "pocketbase", "crud", "offline-queue", "korean", "shared-skill"],
+  "primaryUseCase": "grok-bot",
+  "secondaryUseCase": "cursor-plugin",
+  "skills": [
+    {
+      "name": "pocketbase-connect",
+      "path": "skills/pocketbase-connect/SKILL.md",
+      "description": "PocketBase 연결·CRUD·오프라인 큐 - Mac Shell + .env.local"
+    }
+  ],
+  "bots": [
+    {
+      "name": "PocketBase 헬퍼",
+      "path": "bot.json",
+      "description": "PocketBase 연결·쓰기 요청 시에만 이 스킬을 쓰는 헬퍼"
+    }
+  ]
+}
