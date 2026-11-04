@@ -1,0 +1,11 @@
+{
+  "name": "saju-fortune",
+  "version": "0.1.0",
+  "description": "사주·명리·밥그릇·소비약점·운세·토정 간이 해석 + 계산 스크립트.",
+  "author": {
+    "name": "thecosmicpine",
+    "email": "83455188+thecosmicpine@users.noreply.github.com"
+  },
+  "license": "MIT",
+  "metadata": { "pluginType": "skill", "language": "ko", "category": "fortune" }
+}
